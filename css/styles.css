@@ -13,7 +13,7 @@ body {
 }
 
 #container {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   
   display: flex;
   flex-direction: row;
@@ -202,19 +202,21 @@ color: crimson;
 }
 
 input {
- margin-top: 15px;
- width: 80%;
- height: 30px;
+ /* margin-top: 15px; */
+ width: 100%;
+ height: 60px;
  /* border-radius: 6px; */
- font-size: 18px;
+ font-size: 30px;
+ border-radius: 6px;
 }
 
 .rank { 
   color:rgb(0, 0, 0);
   background-color: rgb(252, 252, 252);
-width: 70px;
-border: 1px solid black;
-font-size: 15px;
+width: 58px;
+/* border: 1px solid black; */
+font-size: 12px;
+margin: 0;
 }
 /* 
 ______________________________ */
@@ -223,13 +225,16 @@ ______________________________ */
   margin-top:5px;
 }
 #name-0 {
-  font-size: 60px;
+  font-size: 61px;
   color: rgb(255, 255, 255);
- margin-top:10px;
+ margin: 20px 20px 20px 20px;
+
+
 }
 #price-0 {
   font-size: 60px;
   color: rgb(255, 255, 255);
+  margin: 20px 20px 20px 20px;
 
 }
 
@@ -239,14 +244,14 @@ ______________________________ */
  
 }
 #name-1 {
-  font-size: 45px;
+  font-size: 40px;
   color: rgb(255, 255, 255);
- margin-top:10px;
+ margin:20px;
 }
 #price-1 {
-  font-size: 45px;
+  font-size: 40px;
   color: rgb(255, 255, 255);
-margin-top: 100px;
+margin-top: 90px;
 }
 
 /* rank 3 inside boxes */
@@ -254,13 +259,14 @@ margin-top: 100px;
   margin-top:5px;
 }
 #name-2 {
-  font-size: 40px;
+  font-size: 45px;
   color: rgb(255, 255, 255);
- margin-top:10px;
+ margin-top:30px;
 }
 #price-2 {
-  font-size: 40px;
+  font-size: 45px;
   color: rgb(255, 255, 255);
+  margin-top:70px;
 
 }
 
@@ -271,14 +277,14 @@ margin-top: 100px;
 }
 #name-3 {
 margin-top: 2px;
-  font-size: 38px;
+  font-size: 40px;
   color: rgb(0, 0, 0);
- 
-
+  margin-top:25px;
+  margin-left:15px;
 }
 #price-3 {
-  margin-top: 2px;
-  font-size: 38px;
+  margin-top: 40px;
+  font-size: 40px;
   color: rgb(0, 0, 0);
  
 }
@@ -288,12 +294,12 @@ margin-top: 2px;
   padding-top:10px;
 }
 #name-4 {
-margin-top: 2px;
+margin-top: 12px;
   font-size: 32px;
   color: rgb(255, 255, 255);
 }
 #price-4 {
-  margin-bottom: 2px;
+  margin-top:25px;
   font-size: 32px;
   color: rgb(255, 255, 255);
   
@@ -320,16 +326,72 @@ margin-top: 8px;
   }
 
 #name-6 {
-  margin-top: 8px;
+  margin-top: 20px;
     font-size: 34px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
 #price-6 {
     margin-top:9px;
     font-size: 32px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
+
+  /* rank 8 inside boxes */
+#logo-7 {
+  margin-top:1px;
+  }
+
+#name-7 {
+  margin-top: 10px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+#price-7 {
+    margin: 0px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  /* rank 9 inside boxes */
+  #logo-8 {
+    margin-top:1px;
+    }
+  
+  #name-8 {
+    margin-top: 15px;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+    }
+  
+  #price-8 {
+    margin-top: 0px;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+    }
+
+    /* rank 10 inside boxes */
+  #logo-9 {
+    margin-top:1px;
+    }
+  
+  #name-9 {
+    margin-top: 3px;
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+    }
+  
+  #price-9 {s
+    margin-bottom: 10px;
+      font-size: 25px;
+      color: rgb(0, 0, 0);
+    }
+  
+
+ 
+
+
 
 
 
