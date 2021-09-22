@@ -9,6 +9,6 @@ It uses CoinGecko API
 Move along.
 Here's an image of a drag racer in action:
 
-![Drag Racing](./assets/mondrian_model.png)
+![image sample](./assets/mondrian_model.png)
 
 Move along.
