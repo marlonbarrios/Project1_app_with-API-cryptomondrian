@@ -1,0 +1,342 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 100;
+}
+
+#container {
+  border: 1px solid black;
+  
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 600px;
+  box-shadow: 15px 15px 2px 1px rgba(26, 26, 40, 0.2);
+}
+
+
+#column-1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+ 
+
+}
+
+#column-2 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+ 
+
+}
+
+#column-3 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+}
+
+#column-4 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+ 
+}
+
+p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#a-red {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  width: 200px;
+  height: 20%;
+  color: rgb(255, 255, 255);
+
+}
+
+/* #logo-0 {
+  height: 100px;
+} */
+
+#b-red {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  width: 200px;
+  height: 20%;
+  color: rgb(255, 255, 255);
+ 
+
+}
+
+img {
+ height:  35px;
+}
+
+#price-0 {
+
+  font-size: 40px;
+
+
+}
+
+
+/* img {
+width: 30px;
+} */
+
+
+#d-red {
+  background-color: rgb(255, 0, 0);
+  width: 200px;
+  height: 30%;
+}
+
+
+#a-yellow {
+  background-color: rgb(255, 225, 0);
+  width: 200px;
+  height: 20%;
+}
+
+#b-yellow {
+  background-color: rgb(255, 225, 0);
+  width: 200px;
+  height: 10%;
+
+}
+
+#d-yellow {
+  background-color: rgb(255, 225, 0);
+  width: 200px;
+  height: 10%;
+
+}
+
+#a-black {
+  background-color: rgb(0, 0, 0);
+  color: red;
+  width: 200px;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#image {
+  justify-items: right;
+  height: 200px;
+
+  }
+  
+#b-black {
+background-color: rgb(255, 225, 0);
+color: red;
+width: 200px;
+height: 30%;
+font-size: 30px;
+}
+
+#c-black {
+  background-color: rgb(0, 0, 0);
+color: crimson;
+  width: 200px;
+  height: 25%;
+  }
+  
+#a-white {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#b-white {
+  background-color: rgb(255, 255, 255);
+ 
+  width: 200px;
+  height: 20%;
+}
+
+#c-blue {
+  background-color: rgb(8, 46, 232);
+
+  width: 200px;
+  height: 15%;
+}
+
+#cc-blue {
+  background-color: rgb(8, 46, 232);
+  width: 200px;
+  height: 30%;
+}
+
+
+#d-white {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 25%;
+  font-size: 20px;
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+
+input {
+ margin-top: 15px;
+ width: 80%;
+ height: 30px;
+ /* border-radius: 6px; */
+ font-size: 18px;
+}
+
+.rank { 
+  color:rgb(0, 0, 0);
+  background-color: rgb(252, 252, 252);
+width: 70px;
+border: 1px solid black;
+font-size: 15px;
+}
+/* 
+______________________________ */
+/* rank 1 inside boxes */
+#logo-0 {
+  margin-top:5px;
+}
+#name-0 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+ margin-top:10px;
+}
+#price-0 {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+
+}
+
+
+/* rank 2 inside boxes */
+#logo-1 {
+ 
+}
+#name-1 {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+ margin-top:10px;
+}
+#price-1 {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+margin-top: 100px;
+}
+
+/* rank 3 inside boxes */
+#logo-2 {
+  margin-top:5px;
+}
+#name-2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+ margin-top:10px;
+}
+#price-2 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+
+}
+
+
+/* rank 4 inside boxes */
+#logo-3 {
+  padding-top:10px;
+}
+#name-3 {
+margin-top: 2px;
+  font-size: 38px;
+  color: rgb(0, 0, 0);
+ 
+
+}
+#price-3 {
+  margin-top: 2px;
+  font-size: 38px;
+  color: rgb(0, 0, 0);
+ 
+}
+
+/* rank 5 inside boxes */
+#logo-4 {
+  padding-top:10px;
+}
+#name-4 {
+margin-top: 2px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+#price-4 {
+  margin-bottom: 2px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  
+}
+/* rank 6 inside boxes */
+#logo-5 {
+margin-top:1px;
+}
+#name-5 {
+margin-top: 8px;
+  font-size: 34px;
+  color: rgb(0, 0, 0);
+}
+#price-5 {
+  margin-top:9px;
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+  
+}
+
+/* rank 7 inside boxes */
+#logo-6 {
+  margin-top:1px;
+  }
+
+#name-6 {
+  margin-top: 8px;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+  }
+
+#price-6 {
+    margin-top:9px;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+
+
