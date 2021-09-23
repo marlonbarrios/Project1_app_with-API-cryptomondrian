@@ -9,7 +9,7 @@ Image of the CSS grid with no data:
 ![image sample](./assets/no_data.png).
 
 
-The app refreshes by interaction of the user with a button  and can be set to go it programatically every minute. 
+The app refreshes by interaction of the user with a button  and can be set to do it programatically every minute. 
 (disabled).
 
 ## Technologies used:
