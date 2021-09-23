@@ -1,36 +1,30 @@
 const $form = $('form');
-
+//click to refresh fetchData again
 $form.on('submit', fetchData)
+
 
 function fetchData() {
 
-
-    //next iterate with a forEach
+  //api call from CoinGecko
    $.ajax({url:'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false'
        },1000)    
        .then(
-         //coin = object
+         //"coin"  is an object 
    
          (data) => { 
            console.log("fetched");
-            data.forEach(function(coin, idx) {
 
-             $(`#name-${idx} `).text(coin.id);
-            
+           //function to iterate over the array gat the indexes
+            data.forEach(function(coin, idx) {
+              //data showing in IDs...Ids are deployed all over the grid
+             //Cryptocurrency name
+              $(`#name-${idx} `).text(coin.id);
+            //Cryptocurrency price
              $(`#price-${idx} `).text(coin.current_price);
-            
-            $(` #logo-${idx}`).html(`<p> <img class="image" src='${coin.image}'></p>`);
+            //  //Cryptocurrency logo/it is not used
+            // $(` #logo-${idx}`).html(`<p> <img class="image" src='${coin.image}'></p>`);
             })
 
-
-           
-            // data.forEach(function( onOff, idxe) {
-  
-            // $(`#name-${idxe} `).fadeOut( 500, function() {
-            // $(`#name-${idxe} `).fadeIn( 2000 );
-
-
-            // })
 
          },
         
@@ -39,52 +33,58 @@ function fetchData() {
          });
        
    
-   
        }
    
         fetchData();
-   
-   
-        
-        // $( "input" ).click(function() {
-        //   $(`#name-${idx} `).fadeOut( 500, function() {
-        //     $(`#name-${idx} `).fadeIn( 2000 );
-            
-        //   });
-        //  return false;
-        // });
-
-
-        // $( "input" ).click(function() {
-        //   $( "#price-0" ).fadeOut( 500, function() {
-        //     $( "#price-0" ).fadeIn( 2000 );
-        //   });
-        //  return false;
-        // });
-
-
-
 
        
+        //click to refresh data and to fade out in/smoothing
+        $( "input" ).click(function() {
+        for (let i=0; i < 10; i++) {
+          console.log(i);
+          $(`#name-${i}`).fadeOut( 1000, function() {
+            $(`#name-${i}`).fadeIn( 3000); 
+          })
+
+          $(`#price-${i}`).fadeOut( 1000, function() {
+            $(`#price-${i}`).fadeIn( 3000); 
+          })
+  
+
+        };
+
+       return false;
+      });
+
+//refreshes data every 1 minutes/commented out 
+      // setInterval(() => {
+      //   fetchData();
+
+      //   for (let i=0; i < 10; i++) {
+      //     console.log(i);
+      //     $(`#name-${i}`).fadeOut( 1000, function() {
+      //       $(`#name-${i}`).fadeIn( 3000); 
+      //     })
+
+      //     $(`#price-${i}`).fadeOut( 1000, function() {
+      //       $(`#price-${i}`).fadeIn( 3000); 
+      //     })
+  
+      //   };
+
+      //  return false;
+      // // });
 
 
+    //   console.log("fetched");
+    // }, 60000);  
 
-  //  setInterval(() => {
-  //   fetchData();
-    
-  //   $( "#name-0" ).fadeOut( 500, function() {
-  //     $( "#name-0" ).fadeIn( 2000 );
-  //   });
-  //   $( "#price-0" ).fadeOut( 500, function() {
-  //     $( "#price-0" ).fadeIn( 2000 );
-  //   });
 
-    
-  // }, 10000);  
+  
+
+
+  
 
    
-//     //  $(`#name-${idx} `).text(coin.id).click(function() {
-//       $(`#name-${idx} `).text(coin.id);.first().fadeOut( "slow" );
-// // });
 
    
