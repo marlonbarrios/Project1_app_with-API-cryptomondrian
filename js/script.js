@@ -25,14 +25,11 @@ function fetchData() {
             // $(` #logo-${idx}`).html(`<p> <img class="image" src='${coin.image}'></p>`);
             })
 
-
          },
         
          (error) => {
            console.log('bad request: ', error);
          });
-       
-   
        }
    
         fetchData();
@@ -54,7 +51,9 @@ function fetchData() {
 
        return false;
       });
-//Refreshes and fadesin and out the values every minute
+
+
+//Refreshes and fades in and out the values every minute
      setInterval(() => {
         fetchData();  
 
@@ -71,8 +70,7 @@ function fetchData() {
         };
 
        return false;
-      // });
-
+      
 
       console.log("fetched");
     }, 60000);  

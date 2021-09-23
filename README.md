@@ -2,11 +2,11 @@
 
 # CryptoMondrian
 
-CryptoMondrian is a desktop App that displays the top 10 cryptocurrencies names and prices in dollars using a CSS grid system inspired by the work of Piet Mondrian.
+CryptoMondrian is a desktop App that displays the top 10 cryptocurrencies names and prices in dollars using a CSS grid system inspired by the work of [Piet Mondrian](https://en.wikipedia.org/wiki/Piet_Mondrian).
 The name and the price are placed in descendent order from the largest to the smaller blocks. Clors are and block sizes aee static.
 The data is fetched using the [CoinGecko API](https://duckduckgo.com).
 User can click button and refresh data or wait until the data is refreshes every 60 seconds.
-Image of the CSS grid with no data:
+Image of de model and the CSS grid with no data:
 
 ![image sample](./assets/mondrian_model.png)
 
@@ -18,7 +18,7 @@ Image of the CSS grid with no data:
 - JavaScript
 - JQuery
 
-## Immages before and after refreshing:
+## Images before and after refreshing:
 ![image sample](./assets/final_look.png)
 -----
 ![image sample](./assets/final_look2.png)
