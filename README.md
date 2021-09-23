@@ -7,7 +7,7 @@ it is a desktop only App that displays the top 10 cryptocurrencies names and pri
 The data is fetched using the [CoinGecko API](https://duckduckgo.com).
 Image of the CSS grid with no data:
 ![image sample](./assets/no_data.png)
-the app refreshes by interaction of the user with a button  and can be set to programatically every minute. (disabled)
+The app refreshes by interaction of the user with a button  and can be set to go it programatically every minute. (disabled)
 
 ## Technologies used:
 - HTML
@@ -15,8 +15,10 @@ the app refreshes by interaction of the user with a button  and can be set to pr
 - JavaScript
 - JQuery
 
-### Immages before and after refreshing:
+### Images before and after refreshing:
+
 ![image sample](./assets/final_look.png)
+-----
 ![image sample](./assets/final_look2.png)
 
 Getting Started:
