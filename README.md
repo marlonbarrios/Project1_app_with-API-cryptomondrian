@@ -1,7 +1,7 @@
 # Project1_app_with-API-cryptomondrian
 
 ### CryptoMondrian
-Description:
+
 it is a desktop only App that displays the top 10 cryptocurrencies names and prices in dollars using a CSS  grid system inspired by the work of Piet Mondrian.
 ![image sample](./assets/mondrian_model.png)
 The data is fetched using the [CoinGecko API](https://duckduckgo.com).
