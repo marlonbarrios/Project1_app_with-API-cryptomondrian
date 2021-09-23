@@ -12,7 +12,7 @@ function fetchData() {
          //"coin"  is an object 
    
          (data) => { 
-           console.log("fetched");
+           console.log('fetched');
 
            //function to iterate over the array gat the indexes
             data.forEach(function(coin, idx) {
@@ -20,7 +20,7 @@ function fetchData() {
              //Cryptocurrency name
               $(`#name-${idx} `).text(coin.id);
             //Cryptocurrency price
-             $(`#price-${idx} `).text(coin.current_price);
+             $(`#price-${idx} `).html(coin.current_price);
             //  //Cryptocurrency logo/it is not used
             // $(` #logo-${idx}`).html(`<p> <img class="image" src='${coin.image}'></p>`);
             })
@@ -38,7 +38,7 @@ function fetchData() {
         fetchData();
 
        
-        //click to refresh data and to fade out in/smoothing
+        //click to refresh and to fade out in/smoothing
         $( "input" ).click(function() {
         for (let i=0; i < 10; i++) {
           console.log(i);
@@ -50,34 +50,32 @@ function fetchData() {
             $(`#price-${i}`).fadeIn( 3000); 
           })
   
-
         };
 
        return false;
       });
+//Refreshes and fadesin and out the values every minute
+     setInterval(() => {
+        fetchData();  
 
-//refreshes data every 1 minutes/commented out 
-      // setInterval(() => {
-      //   fetchData();
+        for (let i=0; i < 10; i++) {
+          console.log(i);
+          $(`#name-${i}`).fadeOut( 2000, function() {
+            $(`#name-${i}`).fadeIn( 3000); 
+          })
 
-      //   for (let i=0; i < 10; i++) {
-      //     console.log(i);
-      //     $(`#name-${i}`).fadeOut( 1000, function() {
-      //       $(`#name-${i}`).fadeIn( 3000); 
-      //     })
-
-      //     $(`#price-${i}`).fadeOut( 1000, function() {
-      //       $(`#price-${i}`).fadeIn( 3000); 
-      //     })
+          $(`#price-${i}`).fadeOut( 2000, function() {
+            $(`#price-${i}`).fadeIn( 3000); 
+          })
   
-      //   };
+        };
 
-      //  return false;
-      // // });
+       return false;
+      // });
 
 
-    //   console.log("fetched");
-    // }, 60000);  
+      console.log("fetched");
+    }, 60000);  
 
 
   
