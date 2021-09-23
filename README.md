@@ -6,8 +6,11 @@ it is a desktop only App that displays the top 10 cryptocurrencies names and pri
 ![image sample](./assets/mondrian_model.png)
 The data is fetched using the [CoinGecko API](https://duckduckgo.com).
 Image of the CSS grid with no data:
-![image sample](./assets/no_data.png)
-The app refreshes by interaction of the user with a button  and can be set to go it programatically every minute. (disabled)
+![image sample](./assets/no_data.png).
+
+
+The app refreshes by interaction of the user with a button  and can be set to go it programatically every minute. 
+(disabled).
 
 ## Technologies used:
 - HTML
