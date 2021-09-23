@@ -1,10 +1,6 @@
 # Project1_app_with-API-cryptomondrian
 
-<<<<<<< HEAD
-## CryptoMondrian
-=======
-### CryptoMondrian
->>>>>>> 08a83140075d245811d675f5c4bb682421ec718d
+# CryptoMondrian
 
 it is a desktop only App that displays the top 10 cryptocurrencies names and prices in dollars using a CSS  grid system inspired by the work of Piet Mondrian.
 ![image sample](./assets/mondrian_model.png)
@@ -13,17 +9,13 @@ Image of the CSS grid with no data:
 ![image sample](./assets/no_data.png)
 the app refreshes by interaction of the user with a button  and can be set to programatically every minute. (disabled)
 
-<<<<<<< HEAD
 ## Technologies used:
-=======
-### Technologies used:
->>>>>>> 08a83140075d245811d675f5c4bb682421ec718d
 - HTML
 - CSS
 - JavaScript
 - JQuery
 
-### Immages before and after refreshing:
+## Immages before and after refreshing:
 ![image sample](./assets/final_look.png)
 ![image sample](./assets/final_look2.png)
 
@@ -31,11 +23,7 @@ the app refreshes by interaction of the user with a button  and can be set to pr
 [The app is live here: ](https://crypto-mondrian.netlify.app/?).
 Click the refresh data button to get new data.
 
-<<<<<<< HEAD
 ## Future Enhancements:
-=======
-### Future Enhancements:
->>>>>>> 08a83140075d245811d675f5c4bb682421ec718d
 - Mobile responsive design.
 - The boxes will dynamically chage of size based on the market capital and.or price.
 - The user can click in the name of the cryptocurrency and will go to a search using the cryptocurrency name for the search.
@@ -59,13 +47,3 @@ Click the refresh data button to get new data.
 
 
 
-
-☐ <Your app's title>: A description of your app. Background info of the app is a nice touch.
-
-☐ Technologies Used: List of the technologies used, e.g., JavaScript, HTML, CSS...
-
-☐ Screenshot(s): Images of your actual app.
-
-☐ Getting Started: In this section include the link to your deployed app and any instructions you deem important.
-
-☐ Future Enhancements: Features you plan to implement later.
