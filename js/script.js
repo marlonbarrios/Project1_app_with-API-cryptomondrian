@@ -44,10 +44,10 @@ let fader = fadeInOut();
 function fadeInOut() {
   for (let i = 0; i < 10; i++) {
 
-    $(`#name-${i}`).fadeOut(300, function () {
+    $(`#name-${i}`).fadeOut(2000, function () {
       $(`#name-${i}`).fadeIn(3000);
     })
-    $(`#price-${i}`).fadeOut(300, function () {
+    $(`#price-${i}`).fadeOut(2000, function () {
       $(`#price-${i}`).fadeIn(3000);
 
       console.log(i);
@@ -62,7 +62,7 @@ function fadeInOut() {
 //click to refresh and to fade out in/smoothing
 $("input").click(function (fader) {
   fadeInOut();
- 
+  fetchData();
   return fader;
 
 });
@@ -72,7 +72,7 @@ $("input").click(function (fader) {
 setInterval(() => {
   console.log("refreshed every 60 secs")
   fadeInOut();
-
+  fetchData();
 
  
 }, 60000);
