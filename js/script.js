@@ -61,7 +61,7 @@ function fadeInOut() {
 
 //click to refresh and to fade out in/smoothing
 $("input").click(function (fader) {
-  fadeInOut();
+  
 
   return fader;
 
