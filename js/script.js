@@ -45,10 +45,10 @@ let fader = fadeInOut();
 function fadeInOut() {
   for (let i = 0; i < 10; i++) {
 
-    $(`#name-${i}`).fadeOut(500, function () {
+    $(`#name-${i}`).fadeOut(200, function () {
       $(`#name-${i}`).fadeIn(3000);
     })
-    $(`#price-${i}`).fadeOut(500, function () {
+    $(`#price-${i}`).fadeOut(200, function () {
       $(`#price-${i}`).fadeIn(3000);
 
       console.log(i);
