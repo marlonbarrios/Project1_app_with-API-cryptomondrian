@@ -30,10 +30,12 @@ Click the refresh data button to get new data.
 
 ## Future Enhancements:
 - Mobile responsive design.
+- Filter out the stablecoins (include or not)
+- The user can select the fiat currency to display value (dollars, Euro and Pound.)
 - The boxes will dynamically chage of size based on the market capital and.or price.
 - The user can click in the name of the cryptocurrency and will go to a search using the cryptocurrency name for the search.
-- Reorganized as a table or list.
-- Upload screenshot to an NFT market.
+- the user can select to reorganoze as data as a table or list.
+- The user can take an screenshot and create upload screenshot to an NFT market.
 
 
 
